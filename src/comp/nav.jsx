@@ -214,7 +214,7 @@ export default function App() {
                 <FormLabel>Password</FormLabel>
                 <Input type="password" placeholder="Enter your password" />
               </FormControl>
-              <Button colorScheme="brand" onClick={signUpModal.onClose}>
+              <Button variant={'outline'} onClick={signUpModal.onClose}>
                 Sign Up
               </Button>
             </VStack>
